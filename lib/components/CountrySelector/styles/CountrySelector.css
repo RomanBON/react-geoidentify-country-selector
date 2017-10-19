@@ -1,0 +1,42 @@
+.c-select {
+    width: 100%;
+    font-weight: 300;
+    text-align: left;
+    color: #a7a7a7;
+    border-radius: 2px;
+    border: solid 0.5px #a7a7a7;
+    cursor: pointer;
+}
+
+.c-dropdown-menu {
+    width: 100%;
+    padding: 10px 0 0;
+}
+
+.c-dropdown-input {
+    width: 98%;
+    margin-left: 1%;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.c-dropdown-ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.c-dropdown-item {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.c-dropdown-flag {
+    margin: 5px 5px 0 0;
+}
+
+.c-dropdown-menu-overflow {
+    max-height: 220px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
