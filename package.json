@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "lib/index.js",
   "description": "Identifier geocoder for country selector on react",
-  "private": true,
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RomanBON/react-geoidentify-country-selector.git"
