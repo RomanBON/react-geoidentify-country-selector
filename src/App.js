@@ -12,7 +12,7 @@ class App extends Component {
         }
     }
     getSelectedCountry(coutryObject) {
-        // console.log(coutryObject);
+        console.log(coutryObject);
         this.setState({
             countryName: coutryObject.countryName,
             ISOALPHA2Code: coutryObject.ISOALPHA2Code,
