@@ -17,7 +17,7 @@ $ yarn add react-geoidentify-country-selector
 #### ES6 with JSX example
 ```javascript
 import React from 'react';
-import { CountrySelector } from 'react-geoidentify-country-selector';
+import CountrySelector from 'react-geoidentify-country-selector';
 
 class App extends React.Component {
     getSelectedCountry(coutryObject) {
