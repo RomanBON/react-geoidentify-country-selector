@@ -1,6 +1,6 @@
 {
   "name": "react-geoidentify-country-selector",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "lib/index.js",
   "description": "Identifier geocoder for country selector on react",
   "private": false,
