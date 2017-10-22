@@ -1,6 +1,6 @@
 {
   "name": "react-geoidentify-country-selector",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/index.js",
   "description": "Identifier geocoder for country selector on react",
   "private": false,
@@ -13,7 +13,11 @@
     "components",
     "country-selector",
     "country",
-    "flag"
+    "countries",
+    "flag",
+    "dropdown",
+    "menu",
+    "region"
   ],
   "author": "Roman Bondarenko <bask-5@yandex.ru>",
   "license": "MIT",

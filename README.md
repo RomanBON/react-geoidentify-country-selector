@@ -1,8 +1,12 @@
 [**Support me with a Follow**](https://github.com/RomanBON/followers)
 
 # react-geoidentify-country-selector
+The best country selector on react with Identifier geocoder of current position.
 
-The best Identifier geocoder for country selector on react
+This component support the display 3 standard:
+* ISO Alpha-2:               "ISOALPHA2Code": "GE"
+* ISO Alpha-3:               "ISOALPHA3Code": "GEO"
+* ISO Numeric Country Codes: "ISONumericalCode": 268
 
 [See Demo](https://romanbon.github.io/react-geoidentify-country-selector.github.io/)
 
