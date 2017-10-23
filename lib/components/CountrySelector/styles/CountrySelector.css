@@ -42,3 +42,7 @@
     overflow: hidden;
     overflow-y: auto;
 }
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #a6a7a8;
+}
