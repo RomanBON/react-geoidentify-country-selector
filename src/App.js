@@ -5,14 +5,13 @@ class App extends Component {
     constructor() {
         super();
         this.state = {
-            countryName: "Georgia",
-            ISOALPHA2Code: "GE",
-            ISOALPHA3Code: "GEO",
-            ISONumericalCode: 268
+            countryName: 'Germany',
+            ISOALPHA2Code: 'DE',
+            ISOALPHA3Code: 'DEU',
+            ISONumericalCode: 276
         }
     }
     getSelectedCountry(coutryObject) {
-        console.log(coutryObject);
         this.setState({
             countryName: coutryObject.countryName,
             ISOALPHA2Code: coutryObject.ISOALPHA2Code,
@@ -25,7 +24,11 @@ class App extends Component {
             <div>
                 <CountrySelector
                     defaultCountry="Georgia"
-                    getSelectedCountry={coutryObject => this.getSelectedCountry(coutryObject)}
+                    // defaultISOALPHA2Code="KZ"
+                    // defaultISOALPHA3Code="KEN"
+                    // defaultISONumericalCode={410}
+                    getSelectedCountry={coutryObject =>
+                        this.getSelectedCountry(coutryObject)}
                 />
                 {
                     `

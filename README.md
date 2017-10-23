@@ -41,7 +41,10 @@ class App extends React.Component {
         return (
             <div>
                 <CountrySelector
-                    defaultCountry="Georgia"
+                    defaultCountry="Georgia" // First priority
+                    // defaultISOALPHA2Code="KZ" // Second priority
+                    // defaultISOALPHA3Code="KEN" // Third priority
+                    // defaultISONumericalCode={410} // Fourth priority
                     getSelectedCountry={coutryObject => this.getSelectedCountry(coutryObject)}
                 />
             </div>
@@ -51,6 +54,13 @@ class App extends React.Component {
 
 export default App;
 ```
+
+##See Also
+
+* [ISO 3166-1](http://en.wikipedia.org/wiki/ISO_3166-1)
+* [ISO 3166-1 alpha-2](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
+* [ISO 3166-1 alpha-3](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-3)
+* [ISO 3166-1 numeric](http://en.wikipedia.org/wiki/ISO_3166-1_numeric)
 
 ## Licence
 [MIT](https://github.com/RomanBON/react-geoidentify-country-selector/blob/master/LICENSE.md)
